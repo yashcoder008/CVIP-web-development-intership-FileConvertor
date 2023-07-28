@@ -1,0 +1,144 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient( 77.58deg, #09f 50%, #6c3 50%);
+    height: 100vh;
+    padding: 20px;
+}
+
+header
+{
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+header h1
+{
+    font-size: 3rem;
+    color: #6c3;
+    text-shadow: 2px 5px 9px #000;
+}
+
+header h1 span
+{
+    color:#09f;
+}
+
+.container
+{
+    margin: 0 50px;
+    margin-bottom: 25px;
+    padding: 20px;
+    border: none;
+    background-color: whitesmoke;
+    box-shadow: 10px 2px 10px  white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.up-file
+{
+    margin: 10px;
+}
+.up-file input[type="file"]{
+    display: none;
+    
+}
+.up-file .label p
+{
+    color: white;
+    height: 60px ;
+    width: 250px;
+    background-color: navy;
+    padding: 10px;
+    text-align: center;
+    margin-left: 100px;
+    cursor: pointer;
+    
+}
+.or
+{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.show-txt 
+{
+    padding: 10px;
+    padding-top:0 ;
+}
+.show-txt p{
+    margin-left: 10px;
+    font-weight: 400;
+}
+textarea
+{
+    border: none;
+    min-width: 400px;
+    min-height: 200px;
+    background-color: navy;
+    color: #fff;
+    margin: 10px;
+    padding: 10px;
+    resize: none;
+    border-radius: 15px;
+    border-top-left-radius:0px ;
+}
+
+.crt-to
+{
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.lab2,.lab1
+{
+    font-size: 14px;
+    padding: 10px;
+}
+.lab2
+{
+    margin-right:20px;
+}
+
+.sel-opt,.file-name
+{
+    margin: 15px;
+}
+
+#butt
+{
+    margin-top: 20px;
+    padding: 10px;
+    min-width :150px;
+    font-size: 18px;
+    border: none;
+    background-color: navy;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 5px 2px 5px navy;
+
+}
+
+.ctr input,select{
+    border: 1px solid navy;
+    padding: 10px;
+}
+
